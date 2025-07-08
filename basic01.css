@@ -1,0 +1,25 @@
+p{
+    color: green;
+    height: 45px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.cart{
+    background-color: rgb(226, 156, 15);
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    transition: background-color .15s;
+}
+
+.cart:hover{
+    background-color: rgb(226, 156, 15, 0.5);
+    cursor:pointer ;
+    /* box-shadow: 5px 5px 0.5px rgba(0, 0, 0, 0.15); */
+}
+.cart:active{
+    opacity: 0.3;
+}
