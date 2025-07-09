@@ -19,3 +19,10 @@
     padding-left: 36px;
     padding-right: 36px;
   }
+
+  p {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
